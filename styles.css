@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: 'ABeeZee', cursive;
+    background: linear-gradient(#3a86ff, #8338ec);
+    color: #f8edeb;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 6px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #8338ec;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #8338ec;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #8338ec;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+#gift-img-excited:hover {
+    background-image: url("images/excited.webp");
+}
+
+#gift-img-cute:hover {
+    background-image: url("images/cute.webp");
+    background-position: center;
+}
+
+#gift-img-smart:hover {
+    background-image: url("images/smart.webp");
+    background-position: center;
+}
+
+#gift-img-cool:hover {
+    background-image: url("images/cool.webp");
+}
+
+#gift-img-nuts:hover {
+    background-image: url("images/nuts.webp");
+}
